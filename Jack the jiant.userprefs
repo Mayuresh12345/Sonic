@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cloud Collector Scripts\CloudSpawner.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Background Scripts\Collectors\BGSpawner.cs" Line="12" Column="2" />
+      <File FileName="Assets\Scripts\Cloud Collector Scripts\CloudSpawner.cs" Line="142" Column="35" />
+      <File FileName="Assets\Scripts\Cloud Collector Scripts\CloudCollector.cs" Line="13" Column="2" />
+      <File FileName="Assets\Scripts\Background Scripts\BGScalar.cs" Line="16" Column="23" />
+      <File FileName="Assets\Scripts\Background Scripts\Collectors\BGCollector.cs" Line="11" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
