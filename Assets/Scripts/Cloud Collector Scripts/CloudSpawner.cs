@@ -45,9 +45,9 @@ public class CloudSpawner : MonoBehaviour {
 			int random = Random.Range (i, arrayToShuffle.Length);
 			arrayToShuffle [i] = arrayToShuffle [random];
 			arrayToShuffle [random] =  temp;
-
 		}
 	}
+	
 	void CreateClouds()
 	{
 		Shuffle (clouds);
@@ -69,12 +69,7 @@ public class CloudSpawner : MonoBehaviour {
 			}else if (controlX == 3f) {
 				temp.x = Random.Range (-1.0f, minX);
 				controlX = 0; 
-			}
-
-
-
-						
-				
+			}	
 			lastCloudPositionY = positionY;
 			clouds [i].transform.position = temp;
 			positionY -= distanceBetweenClouds;

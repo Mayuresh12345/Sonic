@@ -28,7 +28,7 @@ public class Player : MonoBehaviour {
 	{
 		float forceX = 0;
 		float vel = Mathf.Abs (myBody.velocity.x);
-		float h = Input.GetAxisRaw ("Horizontal");			//return -1 up and left 0 for nothing 1 for right or d
+		float h = Input.GetAxisRaw ("Horizontal");			//return    -1 up and left      0 for nothing         1 for right or down
 		if (h > 0) {
 			if (vel < maxvelocity) {
 				forceX = speed;				//right
@@ -39,7 +39,8 @@ public class Player : MonoBehaviour {
 			transform.localScale = temp;
 			anim.SetBool ("Walk", true);
 
-		} else if (h < 0) {
+		} 
+		else if (h < 0) {
 			if (vel < maxvelocity) {
 				forceX = -speed;			//left
 		
